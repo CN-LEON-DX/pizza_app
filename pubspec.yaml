@@ -9,6 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.6.0
   firebase_core: ^3.2.0
   flutter_bloc: ^8.1.6
   firebase_auth: ^5.1.2
@@ -16,10 +17,15 @@ dependencies:
   equatable: ^2.0.5
 
 
+  pizza_repository:
+    path: packages/pizza_repository
+
   # custome repository
   # you need to add this dependence for using it inside lib with import 
   user_repository:
     path: packages/user_repository
+
+  
 
 dev_dependencies:
   flutter_test:

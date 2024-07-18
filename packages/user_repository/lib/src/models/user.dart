@@ -18,13 +18,19 @@ class MyUser {
 
   MyUserEntity toEntity(){
     return MyUserEntity(
-      userId: userId, email: email, name: name, hasActiveCart: hasActiveCart
+      userId: userId,
+      email: email,
+      name: name,
+      hasActiveCart: hasActiveCart
     );
   }
 
   static MyUser fromEntity(MyUserEntity entity){
     return MyUser(
-      userId: entity.userId, email: entity.email, name: entity.name, hasActiveCart: entity.hasActiveCart
+      userId: entity.userId,
+       email: entity.email,
+       name: entity.name, 
+       hasActiveCart: entity.hasActiveCart
     );
   }
 
@@ -33,4 +39,4 @@ class MyUser {
     // TODO: implement toString
     return 'MyUser: $userId, $email, $name, $hasActiveCart';
   }
-}
+} 

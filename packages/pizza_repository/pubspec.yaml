@@ -1,4 +1,4 @@
-name: pizza_respository
+name: pizza_repository
 description: "This repo that handles pizzas"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 0.0.1
@@ -12,6 +12,10 @@ dependencies:
 
 
   cupertino_icons: ^1.0.8
+  firebase_core: ^3.2.0
+  cloud_firestore: ^5.1.0
+  rxdart: ^0.28.0
+  firebase_auth: ^5.1.2
 
 dev_dependencies:
   flutter_test:
